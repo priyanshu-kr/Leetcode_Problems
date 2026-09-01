@@ -1,23 +1,27 @@
 from typing import List
 
-s = "racecar"
-t = "carrace"
+s = "rac🫠car"
+t = "carrac😂"
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
         
-        dict_s = {}
-        for n in s:
-            dict_s[n] = dict_s.get(n,0)+1
-            # if we don't initialise the element count with 0 here,it will return None and None+1 will give TypeError: unsupported operand type for +: 'NoneType' and 'int' 
-#            print(dict_s)
+        dict_s, dict_t= {}, {}
 
-        dict_t = {}
-        for n in t:
-            dict_t[n] = dict_t.get(n,0)+1
-#        print(dict_t)
+        # for n in s:
+        #     dict_s[n] = dict_s.get(n,0)+1
+        #     # if we don't initialise the element count with 0 here,it will return None and None+1 will give TypeError: unsupported operand type for +: 'NoneType' and 'int' 
+
+        # for n in t:
+        #     dict_t[n] = dict_t.get(n,0)+1
+
+        # OR
+
+        for n in range(len(s)):
+            dict_s[s[n]] = dict_s.get(s[n],0) + 1
+            dict_t[t[n]] = dict_t.get(t[n],0) + 1
 
         return dict_s == dict_t
 
