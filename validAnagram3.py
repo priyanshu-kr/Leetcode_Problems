@@ -1,7 +1,7 @@
 from typing import List
 
-s = "racecar"
-t = "carrace"
+s = "rac🫠car"
+t = "carrac😂"
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
