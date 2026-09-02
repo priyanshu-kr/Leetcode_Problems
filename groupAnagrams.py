@@ -9,9 +9,11 @@ class Solution:
         groups = {}
         
         for each_str in strs:
-            freq = {}
-            for each_letter in ascii_lowercase:
-                freq[each_letter] = 0
+            # freq = {}
+            # for each_char in ascii_lowercase:
+            #     freq[each_char] = 0
+
+            freq = {each_char: 0 for each_char in ascii_lowercase}
             
             for char in each_str:
                 freq[char] += 1
