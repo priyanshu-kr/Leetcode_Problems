@@ -1,5 +1,6 @@
 """
 3870. Count Commas in Range
+3871. Count Commas in Range II
 
 You are given an integer n.
 
@@ -35,7 +36,7 @@ All numbers from 1 to 998 have fewer than four digits. Therefore, no commas are 
 
 Constraints:
 
-1 <= n <= 105
+1 <= n <= 10^5
 """
 
 n = 123456
