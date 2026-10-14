@@ -21,3 +21,7 @@ Constraints:
 1 <= s1.length, s2.length <= 10^4
 s1 and s2 consist of lowercase English letters.
 '''
+
+class Solution:
+    def checkInclusion(self, s1: str, s2: str) -> bool:
+     
