@@ -28,3 +28,14 @@ n == t.length
 1 <= m, n <= 10^5
 s and t consist of uppercase and lowercase English letters.
 '''
+
+s = "ADOBECODEBANC"
+t = "ABC"
+class Solution:
+    def minWindow(self, s: str, t: str) -> str:
+
+
+        return        
+
+sol = Solution()
+print(sol.minWindow(s, t))
