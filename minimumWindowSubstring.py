@@ -33,9 +33,20 @@ s = "ADOBECODEBANC"
 t = "ABC"
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
+        
+        need = {}
+        for i in t:
+            need[i] = need.get(i, 0) + 1
+        
+        L = 0
+        R = 0
+        need_count = len(need)
+        min_len = 0
 
+        
+        window = {}
 
-        return        
+        return need       
 
 sol = Solution()
 print(sol.minWindow(s, t))
