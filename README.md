@@ -119,7 +119,7 @@ As I progress, I will gradually cover more problems across different difficulty 
 
 My LeetCode profile:
 
-**[Add your LeetCode profile link here]**
+**[[Priyanshu Kumar](https://leetcode.com/u/priyanshu_kr_chauhan/)]**
 
 ---
 
